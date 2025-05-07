@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listings - LendIt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="lendit logo.jpeg" alt="LendIt Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="listings.html" class="active">Listings</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-buttons">
+            <a href="login.html" class="login-btn">Login</a>
+            <a href="signup.html" class="signup-btn">Sign Up</a>
+        </div>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="listings.html">Listings</a>
+        <a href="categories.html">Categories</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login</a>
+        <a href="signup.html">Sign Up</a>
+    </div>
+
+    <!-- Listings Section -->
+    <section class="listings">
+        <div class="listings-header">
+            <h1>Available Items</h1>
+            <div class="search-filter">
+                <input type="text" placeholder="Search items...">
+                <select>
+                    <option value="">All Categories</option>
+                    <option value="clothing">Clothing</option>
+                    <option value="accessories">Accessories</option>
+                    <option value="electronics">Electronics</option>
+                </select>
+                <select>
+                    <option value="">Sort By</option>
+                    <option value="price-low">Price: Low to High</option>
+                    <option value="price-high">Price: High to Low</option>
+                    <option value="newest">Newest First</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="designer saree.jpeg" alt="Formal Wear">
+                <h3>Designer Sarees</h3>
+                <p>₹500/day</p>
+                <button class="rent-btn">Rent Now</button>
+            </div>
+            <div class="product-card">
+                <img src="accessories.jpeg" alt="Accessories">
+                <h3>Luxury Accessories</h3>
+                <p>₹300/day</p>
+                <button class="rent-btn">Rent Now</button>
+            </div>
+            <div class="product-card">
+                <img src="premium suits.jpeg" alt="Suit">
+                <h3>Premium Suits</h3>
+                <p>₹800/day</p>
+                <button class="rent-btn">Rent Now</button>
+            </div>
+            <div class="product-card">
+                <img src="dress.jpeg" alt="Party Wear">
+                <h3>Party Wear Collection</h3>
+                <p>₹600/day</p>
+                <button class="rent-btn">Rent Now</button>
+            </div>
+            <div class="product-card">
+                <img src="Beautiful suit.jpeg" alt="Luxury Items">
+                <h3>kurti sets</h3>
+                <p>₹1000/day</p>
+                <button class="rent-btn">Rent Now</button>
+            </div>
+            <div class="product-card">
+                <img src="bagggg.jpeg" alt="Designer Bags">
+                <h3>Designer Bags</h3>
+                <p>₹400/day</p>
+                <button class="rent-btn">Rent Now</button>
+            </div>
+        </div>
+
+        <div class="pagination">
+            <button class="page-btn">Previous</button>
+            <span class="page-numbers">1 2 3 ... 10</span>
+            <button class="page-btn">Next</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About LendIt</h4>
+                <p>Your trusted platform for renting items. Join our community today!</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect With Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 LendIt. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
